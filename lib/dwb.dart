@@ -63,10 +63,7 @@ class _DwbState extends State<Dwb> {
                 );
               },
               child: Text("Click"),
-          
           ),
-
-          
          Text( number> 0? number.toString() : "Value is Less then 0" )
         ],
       ),

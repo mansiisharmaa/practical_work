@@ -34,7 +34,23 @@ class _SignupState extends State<Signup> {
             ),
           ),
           SizedBox(height: 10),
-          ElevatedButton(onPressed: () {}, child: Text("Enter")),
+          TextField(
+            decoration: InputDecoration(
+              hintText: "Name",
+              labelText: "Enetr your Name",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          SizedBox(height: 10),
+          TextField(
+            decoration: InputDecoration(
+              hintText: "Password",
+              labelText: "Enetr Different Password",
+              border: OutlineInputBorder(),
+            ),
+          ),
+          SizedBox(height: 10),
+          ElevatedButton(onPressed: () {}, child: Text("Submit")),
         ]
       ),)
     );

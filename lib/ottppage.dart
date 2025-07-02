@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_otp_text_field/flutter_otp_text_field.dart';
 import 'package:practical_work/forget.dart';
-import 'package:practical_work/login.dart';
 class Ottppage extends StatefulWidget {
   const Ottppage({super.key});
 
