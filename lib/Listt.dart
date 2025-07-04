@@ -8,7 +8,7 @@ class Listt extends StatefulWidget {
 }
 
 class _ListtState extends State<Listt> {
-   List<String> nameList = ["Mansi", "Kajal", "Shivani"];
+   List<String> nameList = [];
   var nameController = TextEditingController();
   void updateItem(int index){
     nameController.text =nameList[index];
@@ -70,6 +70,7 @@ class _ListtState extends State<Listt> {
                     },
                            child: Text("Delete"),
                            ),
+                           
 
                     ],
                       
