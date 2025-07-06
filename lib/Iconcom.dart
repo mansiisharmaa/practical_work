@@ -10,12 +10,6 @@ class Iconcom extends StatefulWidget {
 class _IconcomState extends State<Iconcom> {
   List<String> nameList = [];
   var nameController = TextEditingController();
-  // void updateItem(int index){
-  //   nameController.text =nameList[index];
-  // }
-  // void deleteItem(int index){
-  //   nameController.text =nameList[index];
-  // }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -45,7 +39,7 @@ class _IconcomState extends State<Iconcom> {
                     children: [
                       IconButton(
                         onPressed: () {
-                          nameController.text = nameList[index]; // pre-fill
+                          nameController.text = nameList[index]; 
                           showDialog(
                             context: context,
                             builder: (BuildContext context) {
@@ -109,7 +103,7 @@ class _IconcomState extends State<Iconcom> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          nameController.clear(); // Clear input before adding new
+          nameController.clear(); 
           showDialog(
             context: context,
             builder: (context) {
