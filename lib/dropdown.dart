@@ -37,7 +37,7 @@ class _DropdownState extends State<Dropdown> {
             child: Container(
               padding: EdgeInsets.all(5),
               width: double.infinity,
-              height: 500,
+              height: 300,
               decoration: BoxDecoration(
                 color: Colors.grey,
                 borderRadius: BorderRadius.circular(10),
@@ -49,10 +49,10 @@ class _DropdownState extends State<Dropdown> {
                     "The analyzer produces this diagnostic when a class name is used to access an instance field.",
                   ),
                   Image.asset(
-                    "assets/main/1.jpg",
+                    "assests/main/5.jpg",
                     width: double.infinity,
                     fit: BoxFit.cover,
-                    height: 400,
+                    height: 500,
                   ),
                 ],
               ),
